@@ -1,0 +1,62 @@
+.Main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(95, 121, 150);
+    position: fixed;
+}
+
+.RoomId{
+    position: relative;
+    top: 5px;
+    margin: 15px;
+    color: white;
+    font-size: 22px;
+}
+
+.Main select{
+    position: relative;
+    border-radius: 5px;
+    top: 5px;
+    left: 25%;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.HomeBtn{
+    position: absolute;
+    right: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(243, 152, 109);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 90px;
+    border-bottom-left-radius: 8px;
+    border-right: 2px solid black ;
+}
+
+.HomeBtn:hover{
+    cursor: pointer;
+}
+
+.LogoutBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(243, 152, 109);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 90px;
+}
+
+.LogoutBtn:hover{
+    cursor: pointer;
+}

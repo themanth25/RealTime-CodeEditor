@@ -1,0 +1,36 @@
+.SideDrawer{
+    width: 4%;
+    height: 618px;
+    background-color:  rgb(77, 67, 74);
+    margin-top: 15px;
+    float: left;
+}
+
+.ButtonIcon{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(0, 0, 0,0);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.ButtonIcon:hover{
+    color: rgb(255, 255, 255);
+}
+
+.DrawerChild{
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+    width: 16%;
+    height: 618px;
+    background-color:rgb(99, 97, 100);
+}
+
+.DrawerChild h3{
+    color: white;
+}
